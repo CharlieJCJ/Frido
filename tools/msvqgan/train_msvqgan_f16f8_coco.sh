@@ -1,2 +1,2 @@
-CUDA_VISIBLE_DEVICES=0,7 python main.py --base configs/msvqgan/msvqgan_f16f8_coco.yaml \
-        -t True --gpus 2 -log_dir ./exp_my/msvqgan -n msvqgan_f16f8_coco
+CUDA_VISIBLE_DEVICES=0 python main.py --base configs/msvqgan/msvqgan_f16f8_coco.yaml \
+        -t True --gpus 1 -log_dir ./exp_my/msvqgan -n msvqgan_f16f8_coco
